@@ -30,7 +30,6 @@ def max_team(states):
     states.sort(reverse=True)
 
     while len(states) >= 3:
-        print(states)
         for i in range(3):
             states[i] = states[i] - 1
         count += 1
